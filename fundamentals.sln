@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Variables", "01_Variable
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTypes", "02_Types\BasicTypes.csproj", "{B1A1EBF9-63C2-4F2E-AEF3-382C36DFB99A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicOperators", "03_Operators\BasicOperators.csproj", "{DDDD91B8-4E2D-4345-B3A3-3A418F2DD6CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{B1A1EBF9-63C2-4F2E-AEF3-382C36DFB99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1A1EBF9-63C2-4F2E-AEF3-382C36DFB99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1A1EBF9-63C2-4F2E-AEF3-382C36DFB99A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDDD91B8-4E2D-4345-B3A3-3A418F2DD6CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDD91B8-4E2D-4345-B3A3-3A418F2DD6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDD91B8-4E2D-4345-B3A3-3A418F2DD6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDD91B8-4E2D-4345-B3A3-3A418F2DD6CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
