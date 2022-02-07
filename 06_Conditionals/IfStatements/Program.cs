@@ -1,5 +1,6 @@
 ﻿bool isSnowing = true;
-bool isGoingOutside = true;
+bool isGoingOutside = false;
+bool hasUmbrella = true; //Challenge hasUmbrella 
 
 if (isSnowing)
 {
@@ -12,7 +13,7 @@ if (isSnowing && isGoingOutside)
     Console.WriteLine("Better bring and umbrella!");
 }
 
-// Not raining OR not going outside
+// Not snowing OR not going outside
 if (!isSnowing || !isGoingOutside)
 {
     Console.WriteLine("I do not need an umbrella.");
@@ -32,6 +33,12 @@ if (isGoingOutside)
 else
 {
     Console.WriteLine("Sounds like a sweats kind of day.");
+}
+
+// Is snowing And has Umbrella
+if (isSnowing && hasUmbrella)
+{
+    Console.WriteLine("Good thing I have my umbrella so I can go outside while it's snowing!");
 }
 
 // IF ELSE IF Exercise

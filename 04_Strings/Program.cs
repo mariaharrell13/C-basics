@@ -21,3 +21,7 @@ Console.WriteLine("Her Name is {0} {1}", firstName, lastName);
 //-- String Interpolation
 string interpolationResult = $"Her name is still {firstName} {lastName}!";
 Console.WriteLine(interpolationResult);
+
+
+
+// program awaits user input to continue application. Console.ReadLine();

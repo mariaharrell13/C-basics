@@ -1,4 +1,4 @@
-﻿// bool is a true fals value, no quotes around the word
+﻿// bool is a true false value, no quotes around the word
 // this is because true and false are keywords, not strings
 bool isLoggedIn = true;
 Console.WriteLine(isLoggedIn);
